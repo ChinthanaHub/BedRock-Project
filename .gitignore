@@ -1,0 +1,24 @@
+# Ignore .tfvars files (they might contain sensitive data)
+*.tfvars
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore .terraform directory, which contains modules and provider plugins
+.terraform/
+
+# Ignore crash logs
+crash.log
+
+# Ignore override files (used for local overrides, not to be versioned)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore .terraform.lock.hcl file, which locks provider versions (can be regenerated)
+.terraform.lock.hcl
